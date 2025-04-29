@@ -21,6 +21,7 @@ Developed by: HARIPRASHAAD RA
 RegisterNumber:  212223040060
 */
 ```
+```
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -83,10 +84,10 @@ print(y_prednew)
 xnew=np.array([[0,0,0,5,65,2,8,2,0,0,1,0]])
 y_prednew=predict(theta,xnew)
 print(y_prednew)
-
-
-
 ```
+
+
+
 ## Output:
 ![logistic regression using gradient descent](sam.png)
 
